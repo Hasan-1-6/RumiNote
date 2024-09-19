@@ -1,0 +1,79 @@
+@font-face{
+    font-family : 'Poppins';
+    src: url('../assets/Poppins-Regular.ttf')
+}
+
+.loginbody{
+    border: 2px rgb(255, 151, 169) solid;
+    height: 500px;
+    width: 30%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins';
+    border-radius: 30px;
+}
+
+.inpfield{
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid peachpuff;
+    width: 80%;
+    transition: linear 0.2s;
+}
+
+
+
+.inpfield:focus{
+    outline: none;
+}
+
+.signin{
+    background : none;
+    border: 1px dotted plum;
+    width: 80%;
+    height: 10%;
+    font-size: 1.5vw;
+    font-family: 'Poppins';
+    transition: ease 0.07s;
+    border-radius: 20px;
+    transition: linear 0.3s;
+}
+
+.signin:hover{
+    background-color: rgba(245, 194, 231, 0.652);
+    border: none;    
+    cursor: pointer;
+}
+
+.welcome{
+    font-size: 2vw;
+    margin: 0px;
+}
+
+.bottomtext{
+    margin: 0px;
+    color: rgb(58, 58, 58);
+    font-weight: 300;
+    font-size: 0.9vw;
+    transition: linear 0.3s;
+}
+
+.bottomtext:hover{
+    cursor: pointer;
+    color: rgb(38, 91, 171);
+}
+
+@media (max-width : 960px){
+    .signin{
+        font-size: 16px;
+    } 
+    .welcome{
+        font-size: 20px;
+    }
+    .bottomtext{
+        font-size: 10px;
+    }
+}

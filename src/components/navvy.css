@@ -1,0 +1,61 @@
+@font-face{
+    font-family : 'Poppins';
+    src: url('../assets/Poppins-Regular.ttf')
+}
+.navbar{
+    font-family: 'Poppins';
+    position: sticky;
+    top: 0;
+    display: flex;
+    backdrop-filter: blur(4px);
+    justify-content: space-between;
+    height: 50px;
+    
+}
+
+.div1{
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+
+}
+
+.div1 h1{
+    font-weight: bold;
+    font-size: 2.1rem;
+    margin: 0px;
+    
+}
+
+
+.div2{
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div2 a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin-right: 5%;
+    width: 40px;
+}
+.rumi{
+    color: rgb(58, 56, 54);
+}
+.note{
+    color: rgb(255, 30, 165);
+}
+.signout{
+    background: none;
+    border: none;    
+    height: 90%;
+}
+.signout:hover{
+    cursor: pointer;
+}
