@@ -1,8 +1,9 @@
-# React + Vite
+# RumiNote
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rumination means repetitive thinking or dwelling on negative feelings causing distress and other consequences. The repetitive, negative aspect of rumination can contribute to the development of depression or anxiety 
 
-Currently, two official plugins are available:
+According to various psychologists. Journaling is one of the best ways to help with rumination so I decided to make it my project and make a webapp that serves as an emotional trashcan that can be logged in on both your PC and mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The data will be wiped ever 24 hours as intended by design to rid of brooding over the past
+
+A new day calls for a new fresh start, So leave all your negative thoughts behind on this website and go chase out better mental health !! 
