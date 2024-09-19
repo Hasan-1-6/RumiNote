@@ -2,6 +2,7 @@ import './navvy.css'
 import { auth } from '../config/firebase'
 import { signOut } from 'firebase/auth'
 import logoutimg from '../assets/logout.png'
+import logo from '../assets/diary.png'
 
 
 function Navvy() {
@@ -19,7 +20,7 @@ function Navvy() {
         <>
         <nav className = "navbar">
             <div className= "div1">
-                <img src= "./src/assets/diary.png" className = "logo"></img> 
+                <img src= {logo} className = "logo"></img> 
                 <h1 className = "rumi">Rumi</h1>
                 <h1 className = "note">Note</h1>
             </div>
