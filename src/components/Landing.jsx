@@ -1,12 +1,12 @@
 import Login from './Login'
 import './landing.css'
-
+import logo from "../assets/diary.png" 
 function Landing() {
 
     return (
         <>
             <div className='ruminote'>
-            <img src= "./src/assets/diary.png" className = "logo"></img> 
+            <img src= {logo} className = "logo"></img> 
                 <h1 className = "rumi">Rumi</h1>
                 <h1 className = "note">Note</h1>
             </div>
