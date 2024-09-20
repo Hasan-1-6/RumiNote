@@ -2,8 +2,7 @@ import './navvy.css'
 import { auth } from '../config/firebase'
 import { signOut } from 'firebase/auth'
 import logoutimg from '../assets/logout.png'
-import logo from '../assets/diary.png'
-
+import logo from "../assets/diary.png" 
 
 function Navvy() {
     const signout = async () => {

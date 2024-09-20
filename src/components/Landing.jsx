@@ -1,7 +1,6 @@
 import Login from './Login'
 import './landing.css'
-import logo from "../assets/diary.png"
-
+import logo from "../assets/diary.png" 
 function Landing() {
 
     return (
