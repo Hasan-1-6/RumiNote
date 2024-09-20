@@ -23,7 +23,7 @@ function Diary() {
                 setHappycount(data.happycount || 0)
                 setSadcount(data.sadcount || 0)
                 setJournal(data.journal || "")
-                setThought(data.thought || "Thought Diary....")
+                setThought(data.thought || "")
             }
         }
             fetchDiaryData()
