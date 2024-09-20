@@ -10,8 +10,8 @@ function Diary() {
     const userId = auth.currentUser.uid
     const [happycount, setHappycount] = useState(0)
     const [sadcount, setSadcount] = useState(0)
-    const [journal, setJournal] = useState("Journal....")
-    const [thought, setThought] = useState("Thought Diary....")
+    const [journal, setJournal] = useState("")
+    const [thought, setThought] = useState("")
 
     useEffect(() => {
             const fetchDiaryData = async () => {
@@ -22,7 +22,7 @@ function Diary() {
                 const data = docSnap.data() 
                 setHappycount(data.happycount || 0)
                 setSadcount(data.sadcount || 0)
-                setJournal(data.journal || "Journal....")
+                setJournal(data.journal || "")
                 setThought(data.thought || "Thought Diary....")
             }
         }
@@ -57,8 +57,8 @@ function Diary() {
             
             <div className = "diarybody">
                 
-                    <textarea className = "drypage" value = {journal} onChange={(e) => setJournal(e.target.value)} ></textarea>
-                    <textarea className = "drypage" value = {thought} onChange={(e) => setThought(e.target.value)}></textarea>
+                    <textarea className = "drypage" placeholder = "Journal...." value = {journal} onChange={(e) => setJournal(e.target.value)} ></textarea>
+                    <textarea className = "drypage" placeholder = "Thought Diary...."value = {thought} onChange={(e) => setThought(e.target.value)}></textarea>
             </div>
 
             <div className = "bottombar">
