@@ -1,10 +1,10 @@
-# 🧘 RumiNote
+# RumiNote
 
 **RumiNote** is a journaling web app designed to help ease **rumination** — the exhausting cycle of repetitive, negative thinking. Built as a safe emotional trashcan, RumiNote lets you write freely and privately — and automatically clears your entries every 24 hours to encourage a fresh mental start.
 
 ---
 
-## 🧠 Why RumiNote?
+## Why RumiNote?
 
 > “Rumination is like a rocking chair — it gives you something to do, but gets you nowhere.”
 
